@@ -21,11 +21,30 @@ header h1 {
 
 .intro {
     width: 100%;
-    height: 60vh;
+    height: 30vh;
     border-bottom: 1px black solid;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+.intro h2 {
+    font-size: 2rem;
+}
+
+.intro p {
+    font-size: 1.25rem;
+}
+
+/* ########################### Common Section ############################ */
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 /* ########################### Skills Section ############################ */
 
@@ -34,7 +53,7 @@ header h1 {
     /* dont set height! it makes problems for mobile view */
     width: 100%;
     border-bottom: 1px black solid;
-
+    display: flex;
 }
 
 /* ########################### Experties Section ############################ */
