@@ -1,37 +1,57 @@
 
+/* ########################### Header ############################ */
+
 header {
-    width: 100vw;
+    position: relative;
+    width: 100%;
     height: 100vh;
     border-bottom: 1px black solid;
 }
 
+header h1 {
+    position: relative;
+    top: 50%;
+    text-align: center;
+    transform: translateY(-50%);
+    font-size: 3rem;
+}
+
+/* ########################### Introduction ############################ */
+
+
 .intro {
-    width: 100vw;
+    width: 100%;
     height: 60vh;
     border-bottom: 1px black solid;
 
 }
+
+
+/* ########################### Skills Section ############################ */
+
 
 .skills {
     /* dont set height! it makes problems for mobile view */
-    width: 100vw;
+    width: 100%;
     border-bottom: 1px black solid;
 
 }
+
+/* ########################### Experties Section ############################ */
 
 .experties {
     /* dont set height! it makes problems for mobile view */
-    width: 100vw;
+    width: 100%;
     border-bottom: 1px black solid;
 
 }
 
+/* ########################### Research Section ############################ */
+
+
 .research {
-    width: 100vw;
+    width: 100%;
     height: 60vh;
     border-bottom: 1px black solid;
 }
 
-footer {
-    
-}
