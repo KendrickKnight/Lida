@@ -19,7 +19,7 @@ body {
 
 main {
     position: relative;
-    max-width: 800px;
+    max-width: 1000px;
     left: 50%;
     transform: translateX(-50%);
 }
