@@ -17,8 +17,50 @@ body {
 
 /* ########################### Header ############################ */
 
+header {
+    display: flex;
 
+}
+
+.intro {
+    margin: 1rem;
+}
+
+.infoSec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    width: 30vw;
+}
+
+.infoSec * {
+    margin: .25rem;
+}
+
+.mainImg {
+    position: relative;
+    width: 25vw;
+    border-radius: 50%;
+    box-shadow: 0 .25rem 1rem rgba(0, 0, 0, 0.459);
+}
+
+.infoSec ul{
+    display: flex;
+}
+
+.infoSec ul li img {
+    position: relative;
+    width: 5vw;
+    border-radius: 50%;
+    box-shadow: 0 .25rem 1rem rgba(0, 0, 0, 0.459);
+}
 /* ########################### Cards ############################ */
+
+h2 {
+    text-align: center;
+}
 
 .cards {
     position: relative;
