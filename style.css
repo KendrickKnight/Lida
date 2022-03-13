@@ -6,12 +6,127 @@
 }
 
 
-/* ########################### Commons ############################ */
+/* =============================== Commons =============================== */
 
-h2 {
+h1,h2,h3,h4,h5,h6 {
     font-size: 2.25rem;
 }
 
+p {
+    font-size: 1.2rem;
+}
+
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto','Lato', sans-serif;
+    background-color: #f3f3f3;
+}
+
+.contactMeBtn {
+    color: whitesmoke;
+    font-size: large;
+    font-weight: bold;
+    background-color: orange;
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+    
+}
+
+.contactMeBtn a {
+    text-decoration: none;
+    font-style: none;
+    color: whitesmoke;
+}
+
+/* =============================== NavBar =============================== */
+
+nav *{
+    color: white;
+}
+
+nav {
+    height: 4rem;
+    background-color: #252D39;
+    display: flex;
+    align-items: center;
+}
+
+nav p {
+    margin: .5rem;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin-left: auto;
+}
+
+nav ul li {
+    margin: .5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: large;
+}
+
+/* =============================== Header =============================== */
+/* ############# LandingPage Header ############# */
+.lp-hdr {
+    position: relative;
+    width: 100%;
+    display: flex;
+    height: 80vh;
+}
+
+.lp-hdr img {
+    width: 45%;
+    background-color: darkred;
+}
+
+.lp-hdr span {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+}
+
+.lp-hdr span .contactMeBtn {
+    margin: 3rem;
+}
+
+/* =============================== Job Description =============================== */
+.lp-jd {
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lp-jd p {
+    max-width: 1000px;
+    margin: 0 2rem;
+}
+
+/* =============================== Research Areas =============================== */
+.lp-ra {
+    
+}
+
+
+/* =============================== Footer =============================== */
+
+footer {
+    background-color: #252D39;
+    height: 7.5rem;
+    display: grid;
+    place-items: center;
 }
