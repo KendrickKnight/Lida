@@ -8,6 +8,8 @@
 
 /* =============================== Commons =============================== */
 
+html { scroll-behavior: smooth;}
+
 h1,h2,h3,h4,h5,h6 {
     font-size: 2.25rem;
 }
@@ -126,7 +128,7 @@ nav ul li a {
 /* =============================== Job Description =============================== */
 .lp-jd {
     width: 100%;
-    height: 70vh;
+    height: 50vh;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -155,6 +157,8 @@ nav ul li a {
     text-align: center;
 }
 
+
+
 .lp-ra .ra {
     margin: 5rem 1rem;
     position: relative;
@@ -170,18 +174,36 @@ nav ul li a {
 .lp-ra .ra span {
     position: relative;
     width: 70%;
-    margin: 1rem;
+    margin: 1rem 2.5rem;
+}
+
+.lp-ra em {
+    font-size: 1.5rem;
+}
+
+.lp-ra p {
+    margin-top: 1.5rem;
 }
 
 .lp-ra .ra2 {
     flex-direction: row-reverse;
 }
+/* =============================== Featured Slider =============================== */
+
+.lp-fs {
+    max-width: 100%;
+    height: 75vh;
+    width: 100%;
+    background-color: rgb(155, 255, 200);
+    margin: 5rem 0;
+}
+
 
 /* =============================== Contact =============================== */
 .contact {
-    height: 90vh;
     margin: 5rem 1rem;
     width: 100%;
+    max-width: 1000px;
 }
 
 .contact h4 {
@@ -197,7 +219,7 @@ nav ul li a {
 
 .contact .cont-stuff {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .contact .cont-stuff .cont-img {
@@ -271,12 +293,23 @@ nav ul li a {
 .contact .cont-stuff .mail input {
     width: 100%;
     margin: .5rem;
-    box-shadow: 0 0 1rem 0 inset rgba(0, 0, 0, 0.411);
+    box-shadow: 0 0 1rem 0 inset rgba(0, 0, 0, 0.3);
+    border-radius: .5rem;
+    border: none;
+}
+
+.contact .cont-stuff .mail .input-email {
+    height: 2.5rem;
 }
 
 .contact .cont-stuff .mail .input-text {
     height: 90%;
 }
+
+.contact .cont-stuff .mail button {
+    border: none;
+}
+
 /* =============================== Footer =============================== */
 
 footer {
