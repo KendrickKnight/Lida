@@ -15,7 +15,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 body {
@@ -123,6 +123,68 @@ nav ul li a {
 
 .lp-hdr span .contactMeBtn {
     margin: 3rem;
+}
+/* ############# About Header ############# */
+
+.abt-hdr {
+    margin-bottom: 10rem;
+    position: relative;
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.abt-hdr .cont-img {
+    position: relative;
+    text-align: center;
+    width: 30%;
+    top: 5rem;
+}
+
+.abt-hdr .cont-img span {
+    position: relative;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.abt-hdr .cont-img .cont-img-head {
+    position: relative;
+    overflow: hidden;
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 50%;
+    background-image:url('src/ContactIMG.JPG');
+    background-position: 40% 30%;
+    background-size: 250%;
+    box-shadow: 0rem .5rem .75rem .05rem rgba(0, 0, 0, 0.37);
+    margin: 1rem 0 ;
+}
+
+.abt-hdr .cont-img ul {
+    list-style-type: none;
+
+    display: flex;
+    margin: 1rem 0 ;
+}
+
+.abt-hdr .cont-img ul li {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: .25rem;
+    background-color:rgb(186, 201, 201);
+    padding: .5rem;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+
+.abt-hdr .cont-txt {
+    width: 70%;
+    position: relative;
+    top: 6rem;
 }
 
 /* =============================== Job Description =============================== */
